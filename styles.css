@@ -1,0 +1,68 @@
+body{
+		background: url("SSS.jpg") no-repeat fixed center;
+		background-size: 100% 100%;
+}
+
+h1{
+		font-family: "Verdana";
+		font-size: 50px;
+}
+
+#prof{
+		border-radius: 25px;
+}
+
+div.top-nav-bar{
+		background-color: rgba(187, 187, 187, 0.6);
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		margin: none;
+		border: none;
+		min-height: 50px;
+		height: 50px;
+		min-width: 100%;
+		width: 100%;
+}
+
+div.top-nav-bar:hover{
+		cursor: default;
+}
+
+ul.navbarlist{
+		margin-top: 0px;
+		padding: 0px;
+		min-height: 50px;
+		height: 50px;
+}
+
+li.navbar-item{
+		font-family: "Verdana";
+		display: inline-block;
+		min-width: 19%;
+		width: 19%;
+		padding: 0px;
+		padding-top: 5px;
+		padding-right: 0.75%;
+		min-height: 45px;
+		height: 45px;
+		font-size: 25px;
+		text-align: center;
+}
+
+
+li.navbar-item:hover{
+		cursor: pointer;
+		background-color: #DDDDDD;
+}
+
+div.home-page-div{
+	background-color: rgba(221,221,221,0.8);
+	float: center;
+	text-align: center;
+	border-radius: 25px;
+    border: 2px solid #000000;
+	margin-top: 60px;
+	margin-left: 10%;
+	width: 80%;
+}
