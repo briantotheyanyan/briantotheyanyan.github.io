@@ -1,11 +1,19 @@
-body{
-		background: url("SSS.jpg") no-repeat fixed center;
+#homepage{
+		background: url("../img/index.jpg") no-repeat fixed center;
 		background-size: 100% 100%;
+		
 }
 
-h1{
+
+#NameTag{
+		text-align: center;
 		font-family: "Verdana";
-		font-size: 50px;
+		font-size: 2em;
+}
+
+#NameDescription{
+		font-family: "Verdana";
+		font-size: 1em;
 }
 
 #prof{
@@ -39,8 +47,8 @@ ul.navbarlist{
 li.navbar-item{
 		font-family: "Verdana";
 		display: inline-block;
-		min-width: 19%;
-		width: 19%;
+		min-width: 24%;
+		width: 24%;
 		padding: 0px;
 		padding-top: 5px;
 		padding-right: 0.75%;
@@ -57,12 +65,13 @@ li.navbar-item:hover{
 }
 
 div.home-page-div{
-	background-color: rgba(221,221,221,0.8);
-	float: center;
-	text-align: center;
-	border-radius: 25px;
-    border: 2px solid #000000;
-	margin-top: 60px;
-	margin-left: 10%;
-	width: 80%;
+		background-color: rgba(221,221,221,0.8);
+		text-align: center;
+		border-radius: 25px;
+    	border: 2px solid #000000;
+		margin-top: 7em;
+		margin-left: 10%;
+		width: 80%;
+		position: relative;
+		overflow: hidden;
 }

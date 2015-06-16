@@ -1,23 +1,31 @@
 <!DOCTYPE html>
 <html>
   <head>
-	<link rel="stylesheet" href="styles.css">
+	<title> Brian Yan </title>
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="styles/styles.css">
   </head>
   
-  <body>
+  <body id="homepage">
 	<div class="top-nav-bar">
 	  <ul class="navbarlist">
-		<li class="navbar-item"> Home </li>
-		<li class="navbar-item"> About Me </li>
-		<li class="navbar-item"> Projects </li>
-		<li class="navbar-item"> Resume </li>
-		<li class="navbar-item"> Contact </li>
+		<li class="navbar-item" id="home-button"> Home </li>
+		<li class="navbar-item" id="projects-button"> Projects </li>
+		<li class="navbar-item" id="resume-button"> Resume </li>
+		<li class="navbar-item" id="home-button"> Contact Me </li>
 	  </ul>
 	</div>
 	<div class="home-page-div">
-	  <h1> Brian Yan </h1>
-	  <img id="prof" src="prof.jpg">
+	  <img src="img/prof.jpg" width="400em" height="300em" style="padding-top:5px; border-radius:25px;"/>
+	  <h1 id="NameTag"> Hi, my name is Brian Yan </h1>
+	  <p id="NameDescription"> I am a Software Developer and Engineer studying Comptuer Science at the University of Southern California. </br>
+		I am originally from New York, but I decided to come out to Los Angeles for school in order to gain new experiences. </br>
+		That being said, I am always willing to try something new. Whether it is in programming, building computers, or anything </br>
+		I am always looking to build cool things and have fun while doing so.
+	  </p>
 	</div>
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/navbar.js"></script>
   </body>
 
 </html>
