@@ -3,9 +3,13 @@ $('#home-button').click(function(){
 	});
 
 $('#projects-button').click(function(){
-		location.href = ".";
+		location.href = "projects.html";
 	});
 
 $('#resume-button').click(function(){
-		location.href = ".";
+		location.href = "resume.pdf";
+	});
+
+$('#contact-button').click(function(){
+		location.href = "contact.html";
 	});
