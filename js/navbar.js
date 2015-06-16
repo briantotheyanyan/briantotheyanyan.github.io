@@ -1,11 +1,11 @@
 $('#home-button').click(function(){
-		location.href = "index.html";
+		location.href = ".";
 	});
 
 $('#projects-button').click(function(){
-		location.href = "projects.html";
+		location.href = ".";
 	});
 
 $('#resume-button').click(function(){
-		location.href = "resume.pdf";
+		location.href = ".";
 	});
