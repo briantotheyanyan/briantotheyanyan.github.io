@@ -1,32 +1,106 @@
-<!DOCTYPE html>
-<html>
-  <head>
-	<title> Brian Yan </title>
-	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-	<link rel="stylesheet" href="styles/styles.css">
-  </head>
-  
-  <body id="homepage">
-	<div class="top-nav-bar">
-	  <ul class="navbarlist">
-		<li class="navbar-item" id="home-button"> Home </li>
-		<li class="navbar-item" id="projects-button"> Projects </li>
-		<li class="navbar-item" id="resume-button"> Resume </li>
-		<li class="navbar-item" id="home-button"> Contact Me </li>
-	  </ul>
+<!DOCTYPE HTML>
+<title>Brian Yan</title>
+<head>
+  <meta name="description" content="Brian Yan, USC student and Developer">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link href="styles/styles.css" rel="stylesheet" text="text/css">
+  <link href="styles/bootstrap.min.css" rel="stylesheet"> 
+  <script src="./js/jquery-2.1.3.min.js"></script>
+  <script src="./js/scripts.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+      <div class="container">
+	<div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#intro">Home</a></li>
+            <li class="active"><a href="#about-me">About Me</a></li>
+            <li class="active"><a href="#Education">Experience</a></li>
+            <li class="active"><a href="#Projects">Projects</a></li>
+            <li class="active"><a href="#Contact-Me">Contact Me</a></li>
+          </ul>
 	</div>
-	<div class="home-page-div">
-	  <img src="img/prof.jpg" width="400em" height="300em" style="padding-top:5px; border-radius:25px;"/>
-	  <h1 id="NameTag"> Hi, my name is Brian Yan </h1>
-	  <p id="NameDescription"> I am a Software Developer and Engineer studying Comptuer Science at the University of Southern California. </br>
-		I am originally from New York, and attended Stuyvesant High School where my curriculum focused on STEM courses. </br>
-		I have since decided to come out to Los Angeles for school in order to gain experiences I would not have attained otherwise. </br>
-		That being said, I am always willing to try something new. Whether it is in programming, building computers, or anything </br>
-		I am always looking to build cool things and have fun while doing so.
-	  </p>
-	</div>
-	<script src="js/jquery-2.1.4.min.js"></script>
-	<script src="js/navbar.js"></script>
-  </body>
+      </div>
+    </nav>
+
+  <div class="pane" id="intro">
+    <div id="subintro">
+      <h1 class="name">Brian Yan</h1>
+      <h1 class="name-about">Student at the University of Southern California</h1>
+      <h1 class="name-about">Class of 2017</h1>    
+    </div>
+  </div>
+
+  <div class="pane" id="about-me">
+    <div class="panel-head">
+    <h1 class="pane-title"> About Me </h1>
+    </div>
+    <img class="ProfilePic" src="images/prof.jpg" alt="Brian Yan">
+    <div id="subabout">
+      <p id="about-text">
+      Hi, my name is Brian Yan. I was born and raised in New York, but I am currently a student studying Computer Science in the University of Southern California in Los Angeles. I am always looking forward to new experiences and to learn new things, which is what attracted me to computer science and programming in the first place. </p>
+    </div>
+  </div>
+
+  <div class="pane" id="Education">
+    <div class="panel-head">
+      <h1 class="pane-title">Experience</h1>
+    </div>
+    <div id="Education-text-block">
+      <h3 id="Experience-subsection"><u>Education</u></h3>
+      <p id="Education-text"> <b>University of Southern California</b></p>
+      <p id="Education-text">Fall 2014-Spring 2017 (Expected)</p>
+      <p id="Education-text"> Major: Computer Science </p>
+      <p></p>
+      <p id="Education-text"><b>Stony Brook University</b></p>
+      <p id="Education-text">Fall 2013-Spring 2014</p>
+      <p id="Education-text">Major: Computer Science Honors Program</p>
+      <p></p>
+      <p id="Education-text"><b>Stuyvesant High School</b></p>
+      <p id="Education-text">Fall 2009-Spring 2013</p>
+    </div>
+    <div id="Experience-text-block">
+      <h3 class="Experience-subsection"><u>Programming Languages</u></h3>
+      <p id="Education-text"><b> Proficiency in:</b></p>
+      <p id="Education-text"> Python, Java, C++, Javascript </p>
+      <p id="Education-text"><b>Working Knowledge in:</b></p>
+      <p id="Education-text">Flask, JQuery, C, HTML, MongoDB, PyMongo</p>
+      <p id="Education-text"><b>Software:</b></p>
+      <p id="Education-text"> Git, SVN</p>
+
+    </div>
+  </div>
+
+  <div class="pane" id="Projects">
+    <div class="panel-head">
+      <h1 class="pane-title">Projects</h1>
+    </div>
+    <div id="Projects-Block">
+      <p class="project-text"><a href="https://github.com/briantotheyanyan/Web-Explorer">Web Explorer</a> </p>
+      <p class="project-text">Presented at New York Tech Meetup, July 2013 as part of the Hack of the Month segment. Allows users to turn any webpage into a platform video game.</p>
+      <p class="project-text"><a href="https://github.com/Brian-Lam/Glassdoor-Linkedinator">inDoors</a></p>
+      <p class="project-text">Chrome Extension for Linkedin that allows users to see Glassdoor ratings of potential employers.<p>
+      <p class="project-text"><a href="https://github.com/briantotheyanyan/SCHacks-Fall-2014">Schedule Maker</a></p>
+      <p class="project-text">Created at SCHacks Fall 2014. Web App that allows users to compare their schedules with schedules of others using this app.</p>
+      <p class="project-text"><a href="https://github.com/briantotheyanyan/Procrastity-Belt">Procrastity Belt</a> </p>
+      <p class="project-text">Created at MHacks Fall 2013. A Chrome Extension that acts as a parental block that prevents users from procrastinating on assignments by comparing what they need to get done with what is actually on the webpage they are going to.</p>
+      <p class="project-text"><a href="https://github.com/briantotheyanyan/Drop">Drop</a></p>
+      <p class="project-text">A web application that takes advantage of location services. Allows users to drop messages in certain locations and anyone in a 100m radius would be able to see the message dropped at a later time.</p>
+    </div>
+  </div>
+
+  <div class="pane" id="Contact-Me">
+    <div class="panel-head">
+      <h1 class="pane-title">Contact Me</h1>
+    </div>
+    <div id="Projects-Block">
+      <p class="contact-text"> See my resume <a href="./resume.pdf">here</a></p>
+      <p class="contact-text"> See my Github <a href="https://github.com/briantotheyanyan/" target="_blank">here</a></p>
+      <p class="contact-text"> Or email me at <a href="mailto:brianyan@usc.edu">brianyan@usc.edu</a></p>
+    </div>
+  </div>
+
+</body>
 
 </html>
